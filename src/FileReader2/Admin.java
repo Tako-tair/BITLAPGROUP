@@ -12,7 +12,10 @@ public class Admin {
         Scanner in = new Scanner(System.in);
 
         while (true){
-            System.out.println("PRESS [1] ADD GOOD"+"\n"+"PRESS [2] LIST GOODS"+"\n"+"PRESS [3] DELETE GOOD"+"\n"+"PRESS [0] TO EXIT");
+            System.out.println("PRESS [1] ADD GOOD"+"\n"
+                    +"PRESS [2] LIST GOODS"+"\n"+
+                    "PRESS [3] DELETE GOOD"+"\n" +
+                     "PRESS [0] TO EXIT");
             int choice = in.nextInt();
             if(choice==1){
                 System.out.println("Insert name:");

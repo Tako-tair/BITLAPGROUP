@@ -49,7 +49,8 @@ public class Client {
                 goodItems.add(new GoodItem(line,price));
             }
         }catch (Exception e){
-        }return goodItems;
+        }
+        return goodItems;
     }
 
     public static ArrayList<BuyHistory> getBuyHistory(){
